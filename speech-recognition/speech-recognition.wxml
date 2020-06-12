@@ -1,0 +1,4 @@
+<!--component/speech-recognition/speech-recognition.wxml-->
+<view class="voice-class" catchtouchstart="streamRecord"  catchtouchend="endStreamRecord"> {{value}} 
+<slot name="voice"></slot>
+</view>
